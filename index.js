@@ -95,7 +95,7 @@ function showUserEditBox(id) {
       Swal.fire({
         title: 'Edit User',
         html:
-        '<input id="fname" class="swal2-input" placeholder="First" value="'+user['id']+'" disabled>' +
+          '<input id="id" class="swal2-input" placeholder="First" value="'+user['id']+'" disabled>' +
           '<input id="fname" class="swal2-input" placeholder="First" value="'+user['fname']+'">' +
           '<input id="lname" class="swal2-input" placeholder="Last" value="'+user['lname']+'">' +
           '<input id="username" class="swal2-input" placeholder="Username" value="'+user['username']+'">' +
